@@ -14,7 +14,7 @@ color: #F03F35 - red
 .grid-container {
     display: grid;
     grid-template-rows: 50px 350px 150px 1fr 1fr 150px 50px;
-    grid-template-columns: 1fr 1fr
+    grid-template-columns: 1fr 1fr;
 }
 
 .header {
@@ -22,9 +22,8 @@ color: #F03F35 - red
     grid-row: span 1;
     background-color: black;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     font-family: 'Barlow', sans-serif;
 }
 
@@ -34,7 +33,7 @@ nav a {
 }
 
 .name {
-    color: #F03F35
+    color: #F03F35;
 }
 
 button {
@@ -54,12 +53,18 @@ button {
     font-family: 'Playfair Display', serif; 
 }
 
-.main {
+.project-headline {
     grid-column: span 2;
-    grid-row: span 3;
-    background-color: grey;
+    grid-row: span 1;
+    background-color: brown;
+}
+
+.project-container {
+    grid-column: span 2;
+    grid-row: span 2;
     display: flex;
-    align-items: center;
+    background-color: grey;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
