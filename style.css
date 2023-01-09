@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 
+/*
+font-family: 'Barlow', sans-serif;
+font-family: 'Playfair Display', serif; 
+color: #B7E3E4 - blue
+color: #F03F35 - red
+*/
+
 .grid-container {
     display: grid;
-    grid-template-rows: 50px 500px 150px 1fr 1fr 150px 50px;
+    grid-template-rows: 50px 350px 150px 1fr 1fr 150px 50px;
     grid-template-columns: 1fr 1fr
 }
 
@@ -18,11 +25,20 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    font-family: 'Barlow', sans-serif;
 }
 
 nav a {
     text-decoration: none;
     color: white;
+}
+
+.name {
+    color: #F03F35
+}
+
+button {
+    text-decoration: none;
 }
 
 .headline {
@@ -32,9 +48,10 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 200px;
+    padding: 75px 350px;
     text-align: center;
-    font-size: 25px;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif; 
 }
 
 .main {
