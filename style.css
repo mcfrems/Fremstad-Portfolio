@@ -21,13 +21,20 @@ color: #F03F35 - red
     grid-column: span 2;
     grid-row: span 1;
     background-color: black;
+    padding: 0 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     font-family: 'Barlow', sans-serif;
 }
 
-nav a {
+.header-left {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
     text-decoration: none;
     color: white;
 }
