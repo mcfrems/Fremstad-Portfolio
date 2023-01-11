@@ -13,57 +13,57 @@ color: #F03F35 - red
 
 .grid-container {
     display: grid;
-    grid-template-rows: 50px 350px 150px 1fr 1fr 150px 50px;
+    grid-template-rows: 50px 20% 150px 1fr 1fr 150px 50px;
     grid-template-columns: 1fr 1fr;
 }
 
 .header {
     grid-column: span 2;
     grid-row: span 1;
-    background-color: black;
     padding: 0 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow Thin', sans-serif;
 }
 
 .header-left {
-    width: 150px;
+    width: 15%;
     display: flex;
     justify-content: space-between;
 }
 
 .header a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .name {
     color: #F03F35;
-}
-
-button {
-    text-decoration: none;
+    margin-left: -80px;
+    font-family: 'Barlow Regular', sans-serif;
 }
 
 .headline {
     grid-column: span 2;
     grid-row: span 1;
-    background-color: beige;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 75px 350px;
+    padding: 75px 25%;
     text-align: center;
     font-size: 50px;
     font-family: 'Playfair Display', serif; 
 }
 
 .project-headline {
-    grid-column: span 2;
+    grid-column: span 1;
     grid-row: span 1;
-    background-color: brown;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Barlow Thin', sans-serif;
+    padding-left: 100px;
 }
 
 .project-container {
@@ -84,5 +84,5 @@ button {
 .footer {
     grid-column: span 2;
     grid-row: span 1;
-    background-color: black;
+    background-color: lightgrey;
 }
