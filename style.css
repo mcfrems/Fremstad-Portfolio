@@ -81,13 +81,13 @@ color: #F03F35 - red
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
+    flex-wrap: wrap;
+    /* width: 40%; */
     margin-bottom: 20px;
-
 }
 
 .img-container {
-    width: 100%;
+    width: 85%;
     height: auto; 
     background-color: #B7E3E4;
     border-radius: 50px 50px 50px 0;
@@ -95,7 +95,7 @@ color: #F03F35 - red
 
 .project-text {
     margin: 25px 0 50px 0;
-    width: 90%;
+    width: 85%;
 }
 
 .project img {
