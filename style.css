@@ -13,18 +13,18 @@ color: #F03F35 - red
 
 .grid-container {
     display: grid;
-    grid-template-rows: 50px 20% 200px 1fr 1fr 200px 50px;
+    grid-template-rows: 50px 30% 100px 1fr 1fr 400px 50px;
     grid-template-columns: 1fr 1fr;
 }
 
 .header {
     grid-column: span 2;
     grid-row: span 1;
-    padding: 0 50px;
+    padding: 0 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Barlow Thin', sans-serif;
+    font-family: 'Barlow', sans-serif;
 }
 
 .header-left {
@@ -36,12 +36,14 @@ color: #F03F35 - red
 .header a {
     text-decoration: none;
     color: black;
+    font-weight: 200;
 }
 
 .name {
     color: #F03F35;
-    margin-left: -80px;
-    font-family: 'Barlow Regular', sans-serif;
+    margin-left: -100px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
 }
 
 .headline {
@@ -50,7 +52,7 @@ color: #F03F35 - red
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 75px 25%;
+    padding: 60px 25%;
     text-align: center;
     font-size: 50px;
     font-family: 'Playfair Display', serif; 
@@ -63,7 +65,7 @@ color: #F03F35 - red
     align-items: center;
     flex-wrap: wrap;
     font-family: 'Barlow Thin', sans-serif;
-    padding-left: 50px;
+    padding-left: 60px;
 }
 
 .project-container {
@@ -72,33 +74,36 @@ color: #F03F35 - red
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: grey;
 }
 
 .project {
-    font-family: 'Barlow Thin', sans-serif;
+    font-family: 'Barlow', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    width: 40%;
+    margin-bottom: 20px;
+
 }
 
 .img-container {
-    display: flex;
-    width: 600px;
-    height: 400px;
-    padding: 25px 25px 0 25px;
-    background-color: antiquewhite;
+    width: 100%;
+    height: auto; 
+    background-color: #B7E3E4;
+    border-radius: 50px 50px 50px 0;
 }
 
 .project-text {
-
+    margin: 25px 0 50px 0;
+    width: 90%;
 }
 
 .project img {
-    height: auto;
-    width: auto;
-    max-width: 550px;   
+    padding: 25px 25px 0 25px;
+    border-radius: 50px 50px 0 0;
+    margin-bottom: -5px;
+    width: 80%;
+
 }
 
 .contact {
@@ -107,12 +112,12 @@ color: #F03F35 - red
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    font-family: 'Barlow Thin', sans-serif;
-    padding: 50px 0 50px 50px;
+    font-family: 'Barlow', sans-serif;
+    padding: 200px 0 100px 60px;
 }
 
 .footer {
     grid-column: span 2;
     grid-row: span 1;
-    background-color: lightgrey;
+    background-color: #F03F35;
 }
