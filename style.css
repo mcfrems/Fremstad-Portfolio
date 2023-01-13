@@ -13,14 +13,14 @@ color: #F03F35 - red
 
 .grid-container {
     display: grid;
-    grid-template-rows: 50px 20% 150px 1fr 1fr 150px 50px;
+    grid-template-rows: 50px 20% 200px 1fr 1fr 200px 50px;
     grid-template-columns: 1fr 1fr;
 }
 
 .header {
     grid-column: span 2;
     grid-row: span 1;
-    padding: 0 100px;
+    padding: 0 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,22 +63,52 @@ color: #F03F35 - red
     align-items: center;
     flex-wrap: wrap;
     font-family: 'Barlow Thin', sans-serif;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 .project-container {
     grid-column: span 2;
     grid-row: span 2;
     display: flex;
-    background-color: grey;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    background-color: grey;
+}
+
+.project {
+    font-family: 'Barlow Thin', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.img-container {
+    display: flex;
+    width: 600px;
+    height: 400px;
+    padding: 25px 25px 0 25px;
+    background-color: antiquewhite;
+}
+
+.project-text {
+
+}
+
+.project img {
+    height: auto;
+    width: auto;
+    max-width: 550px;   
 }
 
 .contact {
-    grid-column: span 2;
+    grid-column: span 1;
     grid-row: span 1;
-    background-color: beige;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Barlow Thin', sans-serif;
+    padding: 50px 0 50px 50px;
 }
 
 .footer {
