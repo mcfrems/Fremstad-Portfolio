@@ -9,11 +9,13 @@ font-family: 'Barlow', sans-serif;
 font-family: 'Playfair Display', serif; 
 color: #B7E3E4 - blue
 color: #F03F35 - red
+color: #162BF4 - bright blue
+color: #EEC0DB - mauve
 */
 
 .grid-container {
     display: grid;
-    grid-template-rows: 50px 30% 100px 1fr 1fr 400px 50px;
+    grid-template-rows: 75px 30% 100px 1fr 1fr 1fr 75px;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -24,13 +26,14 @@ color: #F03F35 - red
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 25px;
     font-family: 'Barlow', sans-serif;
 }
 
-.header-left {
-    width: 15%;
+.header-right {
+    width: 200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .header a {
@@ -40,8 +43,7 @@ color: #F03F35 - red
 }
 
 .name {
-    color: #F03F35;
-    margin-left: -100px;
+    color: #162BF4;
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
 }
@@ -74,6 +76,7 @@ color: #F03F35 - red
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
 }
 
 .project {
@@ -82,14 +85,13 @@ color: #F03F35 - red
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    /* width: 40%; */
+    width: 45%;
     margin-bottom: 20px;
 }
 
 .img-container {
-    width: 85%;
-    height: auto; 
-    background-color: #B7E3E4;
+    /* height: auto;  */
+    background-color: lightgray;
     border-radius: 50px 50px 50px 0;
 }
 
@@ -110,7 +112,7 @@ color: #F03F35 - red
     grid-column: span 1;
     grid-row: span 1;
     display: flex;
-    align-items: center;
+    align-content: center;
     flex-wrap: wrap;
     font-family: 'Barlow', sans-serif;
     padding: 200px 0 100px 60px;
@@ -119,5 +121,23 @@ color: #F03F35 - red
 .footer {
     grid-column: span 2;
     grid-row: span 1;
-    background-color: #F03F35;
+    background-color: #162BF4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+    margin-bottom: 25px;
+
 }
+
+.footer-right {
+    width: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 800px){
+    .project {
+        width: 85%;
+    }
+
