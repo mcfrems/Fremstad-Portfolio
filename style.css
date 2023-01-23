@@ -2,14 +2,14 @@
     margin: 0;
     padding 0;
     box-sizing: border-box;
-    background-color: darkslategrey;
+    background-color: #0C485E;
 }
 
-.container {
-    /* display: grid; 
+/* .container {
+    display: grid; 
     grid-template-rows: 75px 30% 100px 1fr 1fr 1fr 75px;
-    grid-template-columns: 1fr 1fr; */
-}
+    grid-template-columns: 1fr 1fr;
+} */
 
 .header {
     padding: 0 60px;
@@ -30,7 +30,7 @@
 
 .header a {
     text-decoration: none;
-    color: white;
+    color: #C7C6C4;
     font-weight: 200;
 }
 
@@ -42,17 +42,22 @@
 
 .headline {
     padding: 60px 20%;
-    margin-bottom: 100px;
+    margin: 50px 0 100px 0;
     text-align: center;
     font-size: 60px;
-    font-family: 'Playfair Display', serif; 
-    color: white;
+    font-family: 'Barlow', sans-serif;
+    color: #C7C6C4;
     /* grid-column: span 2;
     grid-row: span 1; */
     /* display: flex;
     align-items: center;
     justify-content: center; */
 
+}
+
+.name {
+    color: white;
+    font-size: 65px;
 }
 
 .project-headline {
@@ -88,15 +93,9 @@
     flex-wrap: wrap; */
 }
 
-.img-container {
-    /* background-color: lightgray; */
-    /* border-radius: 25px 25px 25px 0px; */
-    /* height: auto;  */
-}
-
 .project-text {
     margin: 25px 0 50px 0;
-    color: white;
+    color: #C7C6C4;
     /* width: 85%; */
 }
 
@@ -111,7 +110,7 @@
 .contact {
     font-family: 'Barlow', sans-serif;
     padding: 50px 60px;
-    color: white;
+    color: #C7C6C4;
     /* grid-column: span 1;
     grid-row: span 1; */
     /* display: flex;
@@ -131,7 +130,7 @@
     grid-row: span 1; */
 }
 .footer p {
-    color: white;
+    color: #C7C6C4;
     font-family: 'Barlow Thin', sans-serif;
 }
 
@@ -147,9 +146,9 @@
         grid-template-columns: 1fr;
     }
 }
-@media (max-width: 600px){
+@media (max-width: 800px){
     .headline {
-        font-size: 30px;
+        font-size: 40px;
 }       margin-bottom: 50px;
 
 
@@ -161,8 +160,21 @@
 
     font-family: 'Barlow', sans-serif;
     font-family: 'Playfair Display', serif; 
+    font-family: 'Permanent Marker', cursive;
     color: #B7E3E4 - blue
     color: #F03F35 - red
+
     color: #162BF4 - bright blue
     color: #EEC0DB - mauve
+
+    color: #FB9B2A - yellow
+    color: #0C00FF = bright blue
+
+    color: #D1E9E3 - light blue
+    color: #334A45 - dark green
+    color: #F3BFA9 - beige 
+
+    color: #0C485E - slate blue
+    color: #FEB904 - gold
+    color: #C7C6C4 - light grey
     */
