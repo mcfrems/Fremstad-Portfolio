@@ -5,6 +5,10 @@
     background-color: #0C485E;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* .container {
     display: grid; 
     grid-template-rows: 75px 30% 100px 1fr 1fr 1fr 75px;
@@ -76,7 +80,7 @@
     flex-wrap: wrap; */
 }
 
-.project-grid {
+#project-grid {
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: 1fr 1fr;
@@ -113,7 +117,7 @@
     opacity: 0.8;
 }
 
-.contact {
+#contact {
     font-family: 'Barlow', sans-serif;
     padding: 50px 60px;
     color: #C7C6C4;
