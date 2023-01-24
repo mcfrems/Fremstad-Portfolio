@@ -2,7 +2,7 @@
     margin: 0;
     padding 0;
     box-sizing: border-box;
-    background-color: black;
+    background-color: #334A45;
 }
 
 html {
@@ -120,6 +120,7 @@ html {
 #contact {
     font-family: 'Barlow', sans-serif;
     padding: 50px 60px;
+    margin: 100px 0 100px 0;
     color: #C7C6C4;
     /* grid-column: span 1;
     grid-row: span 1; */
