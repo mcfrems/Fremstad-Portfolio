@@ -31,17 +31,17 @@ html {
     align-items: center;
 }
 
-.header-left {
-    width: 150px;
+.nav {
+    width: 200px;
     display: flex;
     justify-content: space-between;
 }
 
-.header-right {
+/* .header-right {
     width: 150px;
     display: flex;
     justify-content: flex-end;
-}
+} */
 
 .header a {
     text-decoration: none;
@@ -163,7 +163,7 @@ html {
     .name {
         font-size: 35px;
     }
-}
+
 
     /* notes:
     -project descriptions
