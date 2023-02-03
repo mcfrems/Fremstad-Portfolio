@@ -22,6 +22,7 @@ html {
     align-items: center;
     margin-top: 25px;
     font-family: 'Barlow', sans-serif;
+    background-color: #334A45;
     /* grid-column: span 2;
     grid-row: span 1; */
 }
@@ -31,10 +32,42 @@ html {
     align-items: center;
 }
 
-.nav {
-    width: 200px;
+.navbar {
+    min-height: 70px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-link {
+    transition: 0.7s ease;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px; auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
 }
 
 /* .header-right {
@@ -43,12 +76,15 @@ html {
     justify-content: flex-end;
 } */
 
-.header a {
+li {
+    list-style: none;
+}
+
+a {
     text-decoration: none;
     color: #C7C6C4;
     font-weight: 200;
 }
-
 
 .headline {
     padding: 60px 20%;
@@ -154,7 +190,7 @@ html {
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 768px){
     .headline {
         font-size: 30px;
         margin-bottom: 50px;
@@ -164,7 +200,43 @@ html {
         font-size: 35px;
     }
 
+    .hamburger{
+        display: block;
+    }
 
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position:fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #334A45;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item{
+        margin: 16px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+    
+}
     /* notes:
     -project descriptions
     -about page
