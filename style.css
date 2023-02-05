@@ -35,6 +35,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #334A45;
 }
 
 .nav-menu {
@@ -42,6 +43,7 @@ html {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+
 }
 
 .nav-link {
@@ -237,8 +239,6 @@ a {
     -project descriptions
     -about page
     -new project images
-    -hamburger menu
-
 
     font-family: 'Barlow', sans-serif;
     font-family: 'Playfair Display', serif; 

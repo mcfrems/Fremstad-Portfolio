@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 .header {
     padding: 0 60px;
     margin-top: 25px;
@@ -17,18 +13,19 @@ html {
     justify-content: flex-start;
 }
 
-.headline {
+.about-headline {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 60px 100px 60px;
-    font-size: 60px;
+    margin: 60px;
+    font-size: 30px;
     font-family: 'Barlow', sans-serif;
     color: #C7C6C4;
 }
 
-.headline img {
+.about-headline img {
     opacity: 0.7;
+    margin: 60px;
     border-radius: 50px 50px 50px 0px;
 }
 
