@@ -3,27 +3,16 @@
     padding 0;
     box-sizing: border-box;
     background-color: #334A45;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-/* .container {
-    display: grid; 
-    grid-template-rows: 75px 30% 100px 1fr 1fr 1fr 75px;
-    grid-template-columns: 1fr 1fr;
-} */
-
 .header {
     padding: 0 60px;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
     margin-top: 25px;
-    font-family: 'Barlow', sans-serif;
-    /* grid-column: span 2;
-    grid-row: span 1; */
 }
 
 .header img {
@@ -43,7 +32,6 @@ html {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-
 }
 
 .nav-link {
@@ -90,29 +78,12 @@ a {
     margin: 150px 0 100px 0;
     text-align: center;
     font-size: 60px;
-    font-family: 'Barlow', sans-serif;
     color: #C7C6C4;
-    /* grid-column: span 2;
-    grid-row: span 1; */
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-
 }
 
 .name {
     color: white;
     font-size: 65px;
-}
-
-.project-headline {
-    /* font-family: 'Barlow', sans-serif;
-    padding: 0 0 25px 60px;
-    grid-column: span 1;
-    grid-row: span 1;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap; */
 }
 
 #project-grid {
@@ -122,19 +93,6 @@ a {
     grid-column-gap: 60px;
     grid-row-gap: 40px;
     margin: 0 60px;
-    /* grid-column: span 2;
-    grid-row: span 2; 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; */
-}
-
-.project {
-    font-family: 'Barlow', sans-serif;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    flex-wrap: wrap;
 }
 
 .project-text {
@@ -150,15 +108,13 @@ a {
 }
 
 #contact {
-    font-family: 'Barlow', sans-serif;
     padding: 50px 60px;
     margin: 100px 0 100px 0;
     color: #C7C6C4;
-    /* grid-column: span 1;
-    grid-row: span 1;
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap; */
+}
+
+#contact a {
+    font-size: 25px;
 }
 
 .footer {
@@ -168,12 +124,10 @@ a {
     height: 50px;
     padding: 0 60px;
     margin-bottom: 25px;
-    /* grid-column: span 2;
-    grid-row: span 1; */
 }
+
 .footer p {
     color: #C7C6C4;
-    font-family: 'Barlow Thin', sans-serif;
 }
 
 .footer-right {

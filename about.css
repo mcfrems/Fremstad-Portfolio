@@ -3,12 +3,12 @@
     margin: 0;
     padding 0;
     box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .header {
     padding: 0 60px;
     margin-top: 25px;
-    font-family: 'Barlow', sans-serif;
     display: flex;
     justify-content: flex-start;
 }
@@ -19,7 +19,6 @@
     align-items: center;
     margin: 60px;
     font-size: 30px;
-    font-family: 'Barlow', sans-serif;
     color: #C7C6C4;
 }
 
@@ -28,6 +27,10 @@
     margin: 60px;
     border-radius: 50px 50px 50px 0px;
     width: 40%;
+}
+
+#contact a {
+    font-size: 20px;
 }
 
 .footer {
