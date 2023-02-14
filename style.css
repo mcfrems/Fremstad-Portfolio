@@ -2,8 +2,12 @@
     margin: 0;
     padding 0;
     box-sizing: border-box;
-    background-color: #334A45;
+    /* background-color: #334A45; */
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    background-image: url(assets/background1.png);
 }
 
 html {
@@ -11,8 +15,7 @@ html {
 }
 
 .header {
-    padding: 0 60px;
-    margin-top: 25px;
+    padding: 25px 60px;
 }
 
 .header img {
@@ -24,7 +27,6 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #334A45;
 }
 
 .nav-menu {
@@ -69,7 +71,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #C7C6C4;
+    color: black;
     font-weight: 200;
 }
 
@@ -78,11 +80,11 @@ a {
     margin: 150px 0 100px 0;
     text-align: center;
     font-size: 60px;
-    color: #C7C6C4;
+    color: black;
 }
 
 .name {
-    color: white;
+    color: black;
     font-size: 65px;
 }
 
@@ -97,7 +99,7 @@ a {
 
 .project-text {
     margin: 25px 0 50px 25px;
-    color: #C7C6C4;
+    color: black;
 }
 
 .project img {
@@ -110,7 +112,7 @@ a {
 #contact {
     padding: 50px 60px;
     margin: 100px 0 100px 0;
-    color: #C7C6C4;
+    color: black;
 }
 
 #contact a {
@@ -127,7 +129,7 @@ a {
 }
 
 .footer p {
-    color: #C7C6C4;
+    color: black;
 }
 
 .footer-right {
