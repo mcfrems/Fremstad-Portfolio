@@ -7,7 +7,8 @@
 }
 
 .container {
-    background-image: url(assets/background1.png);
+    background-image: url(assets/background2.png);
+    animation: slide 20s infinite;
 }
 
 html {
@@ -56,7 +57,7 @@ html {
     margin: 5px; auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: white;
+    background-color: black;
 }
 
 /* .header-right {
@@ -77,9 +78,14 @@ a {
 
 .headline {
     padding: 60px 20%;
-    margin: 150px 0 100px 0;
+    margin: 50px 0 100px 0;
     text-align: center;
     font-size: 60px;
+    color: black;
+}
+
+.project-headline {
+    padding: 60px;
     color: black;
 }
 
@@ -100,24 +106,26 @@ a {
 .project-text {
     margin: 25px 0 50px 25px;
     color: black;
+    line-height: 1.6;
 }
 
 .project img {
     margin-bottom: -3px;
     width: 100%;
     border-radius: 50px 50px 50px 0px;
-    opacity: 0.8;
+    opacity: 0.9; 
 }
 
 #contact {
     padding: 50px 60px;
     margin: 100px 0 100px 0;
     color: black;
+    line-height: 1.6;
 }
 
-#contact a {
+/* #contact a {
     font-size: 25px;
-}
+} */
 
 .footer {
     display: flex;
@@ -138,6 +146,16 @@ a {
     justify-content: space-between;
 }
 
+
+@keyframes slide {
+    0%{
+        background-image: url(assets/background2.png);
+    }
+    50%{
+        background-image: url(assets/background3.png);
+    }
+}
+
 @media (max-width: 950px){
     #project-grid {
         grid-template-rows: auto;
@@ -148,7 +166,7 @@ a {
 @media (max-width: 768px){
     .headline {
         font-size: 30px;
-        margin-bottom: 50px;
+        margin: 80px 0 50px 0;
     }
 
     .name {
@@ -174,7 +192,7 @@ a {
     .nav-menu{
         position:fixed;
         left: -100%;
-        top: 130px;
+        top: 70px;
         gap: 0;
         flex-direction: column;
         width: 100%;
