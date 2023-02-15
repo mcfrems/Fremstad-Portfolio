@@ -7,7 +7,6 @@
 
 .container {
     background-image: url(assets/background2.png);
-    opacity: .8;
     animation: slide 50s infinite;
 }
 
