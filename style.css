@@ -2,13 +2,13 @@
     margin: 0;
     padding 0;
     box-sizing: border-box;
-    /* background-color: #334A45; */
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .container {
     background-image: url(assets/background2.png);
-    animation: slide 20s infinite;
+    opacity: .8;
+    animation: slide 50s infinite;
 }
 
 html {
