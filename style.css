@@ -6,7 +6,8 @@
 }
 
 .container {
-    background-image: url(assets/background2.png);
+    /* background-image: url(assets/background2.png); */
+    background-image: linear-gradient(#598EF6, white);
     animation: slide 50s infinite;
 }
 
@@ -137,6 +138,7 @@ a {
 
 .footer p {
     color: black;
+    font-weight: 100;
 }
 
 .footer-right {
@@ -146,14 +148,14 @@ a {
 }
 
 
-@keyframes slide {
+/* @keyframes slide {
     0%{
-        background-image: url(assets/background2.png);
+        background-image: linear-gradient(#598EF6, white);
     }
     50%{
-        background-image: url(assets/background3.png);
+        background-image: linear-gradient(purple, white);
     }
-}
+} */
 
 @media (max-width: 950px){
     #project-grid {
