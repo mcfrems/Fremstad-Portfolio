@@ -100,9 +100,9 @@ a {
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 150px;
+    grid-column-gap: 12%;
     grid-row-gap: 100px;
-    margin: 0 250px;
+    margin: 0 12%;
 }
 
 .project-text {
