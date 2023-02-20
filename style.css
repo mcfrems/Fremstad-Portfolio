@@ -85,6 +85,8 @@ a {
 }
 
 .project-headline {
+    display: flex;
+    justify-content: center;
     padding: 60px;
     color: black;
 }
@@ -98,13 +100,13 @@ a {
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 60px;
-    grid-row-gap: 40px;
-    margin: 0 60px;
+    grid-column-gap: 150px;
+    grid-row-gap: 100px;
+    margin: 0 250px;
 }
 
 .project-text {
-    margin: 25px 0 50px 25px;
+    margin: 25px 0 50px 0;
     color: black;
     line-height: 1.6;
 }
