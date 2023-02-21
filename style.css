@@ -166,6 +166,7 @@ a {
         grid-template-rows: auto;
         grid-template-columns: 1fr;
     }
+
 }
 
 @media (max-width: 768px){
@@ -228,6 +229,10 @@ a {
         left: -10px;
         /* bottom: -25px; */
     }
+
+    .header img {
+    margin-left: 0;
+}
     
 }
     /* notes:
