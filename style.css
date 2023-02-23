@@ -6,9 +6,10 @@
 }
 
 .container {
-    /* background-image: url(assets/background2.png); */
+    /* background-image: url(assets/cloud2.png); */
     background-image: linear-gradient(#598EF6, white);
-    animation: slide 50s infinite;
+    /* animation: slide 50s infinite;
+    background-size: 100% 3300px; */
 }
 
 html {
@@ -116,7 +117,7 @@ a {
 .project img {
     margin-bottom: -3px;
     width: 100%;
-    border-radius: 50px 50px 50px 0px;
+    border-radius: 100px 100px 100px 0px;
     opacity: 0.9; 
 }
 
@@ -154,10 +155,10 @@ a {
 
 /* @keyframes slide {
     0%{
-        background-image: linear-gradient(#598EF6, white);
+        background-image: url(assets/cloud1.png);
     }
     50%{
-        background-image: linear-gradient(purple, white);
+        background-image: url(assets/cloud2.png);
     }
 } */
 
