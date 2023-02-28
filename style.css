@@ -18,18 +18,21 @@ html {
 
 .header {
     padding: 25px 60px;
+    background-color: #0A005A;
 }
 
 .header img {
     display: flex;
     align-items: center;
     margin-left: -70px;
+    filter: drop-shadow(2px 2px 1px #000);
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .nav-menu-left {
@@ -48,6 +51,7 @@ html {
 
 .nav-link {
     transition: 0.7s ease;
+    color: #F0F0F0
 }
 
 .nav-link:hover{
@@ -66,7 +70,7 @@ html {
     margin: 5px; auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: black;
+    background-color: #F0F0F0;
 }
 
 li {
@@ -75,16 +79,17 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
     font-weight: 200;
 }
 
 .headline {
-    padding: 60px 20%;
-    margin: 50px 0 100px 0;
+    padding: 100px 20%;
+    line-height: 1.1;
     text-align: center;
     font-size: 60px;
-    color: black;
+    color: #F0F0F0;
+    background-color: #0A005A;
+    filter: drop-shadow(0px 5px 5px #000);
 }
 
 .project-headline {
@@ -95,7 +100,7 @@ a {
 }
 
 .name {
-    color: black;
+    color: #F0F0F0;
     font-size: 65px;
 }
 
@@ -119,18 +124,21 @@ a {
     width: 100%;
     border-radius: 100px 100px 100px 0px;
     opacity: 0.9; 
+    filter: drop-shadow(6px 6px 5px #CCC);
 }
 
 #contact {
     padding: 50px 60px;
     margin: 100px 0 100px 0;
-    color: black;
+    color: #F0F0F0;
     line-height: 1.6;
+    background-color: #0A005A;
 }
 
-/* #contact a {
+#contact a {
     font-size: 25px;
-} */
+    color: #F0F0F0;
+}
 
 .footer {
     display: flex;
@@ -139,10 +147,11 @@ a {
     height: 50px;
     padding: 0 60px;
     margin-bottom: 25px;
+    background-color: #0A005A;
 }
 
 .footer p {
-    color: black;
+    color: #F0F0F0;
     font-weight: 100;
 }
 
@@ -260,4 +269,10 @@ a {
     color: #0C485E - slate blue
     color: #FEB904 - gold
     color: #C7C6C4 - light grey
+
+
+
+    color: #0A005A - dark blue
+    color: #F0F0F0 - light grey
+    color: #FC411E - red
     */
